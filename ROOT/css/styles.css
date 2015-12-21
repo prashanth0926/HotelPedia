@@ -1,0 +1,195 @@
+.row1 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: white;
+}
+.inputForm {
+     background-image: url('nature.jpg');
+     background-repeat:no-repeat;
+    display: compact;
+    margin-top: 0px;
+    background-size: cover;
+}
+.ml{
+	margin-left: 25px;
+}
+.cushgt{
+	height: 200px;
+	display: compact;
+}
+.cusmrgn{
+	margin-left: 0px;
+	margin-top: 150px;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+.icon-bar{
+	background-color: black;
+}
+.navbar-brand{
+	font-size: 24px;
+}
+.mr{
+	margin-right: 120px;
+}
+.mt{
+	margin-top: 121px;
+}
+.bdy{
+	min-height: 1080px;
+}
+.szl{
+	font-size: 36px;	
+}
+.szl:hover{
+	text-decoration: none;
+	color: green;
+}
+.bl{
+	color: black;
+}
+.sortList{
+	border: 1px solid black;
+	margin-top: 15px;
+}
+.sidebar-nav1{
+	list-style: none;
+}
+.nm{
+	display: flex;
+	margin-top: -15px;
+	margin-left: -15px;
+}
+footer{
+	text-align: center;
+}
+.str, .str:hover {
+	text-decoration: none;
+	color: gold;
+}
+.rating {
+    float:left;
+}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1.85em;
+    padding:0 0em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:150%;
+    line-height:1.2;
+    color:#ddd;
+    text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:before {
+    content: '' ;
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
+.cmt{
+	margin-top: 40px;
+}
+.cusmt{
+	margin-top: 2px;
+	width: 125px;
+}
+.imgSz{
+	height: 500px !important; 
+	width: 1000px !important;
+}
+#fLeft{
+	float: left;
+	width: 100%;
+}
+#fRight{
+	float: right;
+	width: 100%;
+}
+.fLeft1{
+	float: left;
+	width: 100%;
+}
+.tlec{
+	color: darkblue;
+}
+.smallImgSz{
+	height: 200px !important;
+	width: 360px !important;
+}
+.wid1{
+	text-align: center;
+	width: 50px;
+}
+.mb{
+	margin-bottom: 20px;
+}
+.wid2{
+	margin-top: 8px;
+	text-align: center;
+	width: 2.5em;
+	height: 1.8em;
+}
+.ml1{
+	margin-left: 145px;
+}
+.mt1{
+	margin-top: 15px;
+}
+.chbxw{
+	width: 1.5em;
+	height: 1.5em;
+}
+.ml2{
+	margin-left: 175px;
+}
+.mt2{
+	margin-top: 70px;
+}
+.ml3{
+	margin-left: 55px;
+}
+.ml4{
+	margin-left: 15px;
+}
+.modal-content{
+	 overflow: auto !important; 
+      height: 400px;
+}	
